@@ -4,7 +4,7 @@
       <router-link 
        class="header-location"
        to="/city"
-       >上海
+       >{{this.$store.state.city}}
       </router-link>
       <div class="header-title">
           <!-- <i class=""> -->
@@ -24,7 +24,9 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  name: 'HomeHeader'
+};
 </script>
 
 <style lang="stylus" scoped>
