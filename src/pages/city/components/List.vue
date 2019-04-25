@@ -17,8 +17,12 @@
           </div>
         </div>
       </div>
-      <div class="area" v-for="(item, key) of cities" :key="key">
-        <div class="title border-topbottom"> {{key}}</div>   
+      <div class="area" 
+           v-for="(item, key) of cities" 
+           :key="key"
+           :ref="key"
+      >
+        <div class="title border-topbottom">{{key}}</div>   
           <div class="item-list">
             <div 
               class="item border-bottom" 
@@ -38,7 +42,18 @@ export default {
   name: "CityList",
   props: {
     cities: Object,
-    hotCities: Array
+    hotCities: Array,
+    changedLetter: String
+  },
+  watch: {
+    changedLetter() {
+      if(this.changedLetter) {
+        // 通过refs获取到字母对应的区域
+        const element = this.$refs[this.changedLetter][0]
+        this.scroll.scrollToElement(element)
+      }
+     
+    }
   },
   // dom挂载完毕执行
   mounted() {
@@ -58,6 +73,9 @@ export default {
     border-color: #ccc;
   }
 }
+.border-bottom
+  &:before
+   border-color: #ccc
 
 .list-area {
   overflow: hidden;
@@ -98,7 +116,7 @@ export default {
 
 .item-list {
   .item {
-    line-height: 0.74rem;
+    line-height: 0.44rem;
     padding: 0.2rem;
   }
 }
