@@ -16,6 +16,7 @@
 
 <script>
 import axios from 'axios'
+import {mapState} from 'vuex' 
 import CityHeader from './components/Header'
 import CitySearch from './components/Search'
 import CityList from './components/List'
@@ -32,12 +33,16 @@ export default {
     return {
       cities: {},
       hotCities: [],
-      letter: ''
+      letter: '',
+      lastCity: ''
     }
+  },
+  computed: {
+    ...mapState(['city'])
   },
   methods: {
     getCityInfo () {
-      axios.get('/static/mock/city.json')
+      axios.get('/static/mock/city.json?city=' + this.city)
         .then(this.handleGetCityInfoSucc)
     },
     handleGetCityInfoSucc (res) {
@@ -53,7 +58,16 @@ export default {
     }
   },
   mounted () {
+    this.lastCity = this.city
     this.getCityInfo()
+  },
+  //页面刷新时执行
+  activated(){
+    if(this.lastCity !== this.city){
+      this.lastCity = this.city
+      console.log("不相等")
+      this.getCityInfo()
+    }
   }
 }
 </script>
