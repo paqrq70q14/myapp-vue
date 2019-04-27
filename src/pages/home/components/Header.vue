@@ -32,7 +32,6 @@ export default {
 <style lang="stylus" scoped>
 
 .header 
-  height: 0.86rem;
   background-color: #fff;
   .header-wrapper
     background-color:#66d4c3 
