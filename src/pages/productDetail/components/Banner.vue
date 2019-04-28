@@ -44,13 +44,14 @@ export default {
 <style lang='stylus' scoped>
 .banner {
   position: relative;
-  padding: 0.2rem 0.1rem;
+  padding:  0 0.1rem;
   overflow: hidden;
   height: 0;
   padding-bottom: 55%;
 
   .banner-img {
     width: 100%;
+
   }
 
   .img-num {
