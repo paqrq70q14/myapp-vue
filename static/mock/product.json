@@ -1,0 +1,137 @@
+{
+    "code": 0,
+    "houseInfo": {
+        "houses":[
+            {
+                "id": 1,
+                "title":"池袋1-33-3，最大的房子",
+                "desc":"房间位置池袋1丁木，是非常大的房间，有25平米，带独立卫浴",
+                "houseType":"整套",
+                "subHouseType":"毗邻地铁",
+                "address":"池袋1-33-3 city high",
+                "price": 53000,
+                "roomNum": 1,
+                "livingRoom":1,
+                "toilet": 1,
+                "roomType":"整租房源",
+                "line":"池袋站步行1分",
+                "hotkey":["整租","随时入住"],
+                "name": "zs",
+                "picUrl": [
+                    "/static/images/all.jpg",
+                    "/static/images/building.jpg",
+                    "/static/images/design.jpg",
+                    "/static/images/living.jpg",
+                    "/static/images/room.jpg"
+                ]
+  
+                
+            },
+            {
+                "id": 2,
+                "title":"新宿1-33-3，最大的房子",
+                "desc":"房间位置池袋1丁木，是非常大的房间，有25平米，带独立卫浴",
+                "houseType":"单间",
+                "price": 63000,
+                "roomNum": 2,
+                "roomType":"整租房源",
+                "line":"池袋站步行2分",
+                "hotkey":["整租","随时入住","仅限女生"],
+                "picUrl": [
+                    "/static/images/all.jpg",
+                    "/static/images/building.jpg",
+                    "/static/images/room.jpg"
+                ]
+            },
+            {
+                "id": 3,
+                "title":"港区1-33-3，最大的房子",
+                "desc":"房间位置池袋1丁木，是非常大的房间，有25平米，带独立卫浴",
+                "price": 56000,
+                "roomNum": 1,
+                "roomType":"转租房源",
+                "line":"池袋站步行5分",
+                "hotkey":["整租","随时入住","性价比高"],
+                "picUrl": [
+                    "/static/images/all.jpg",
+                    "/static/images/building.jpg",
+                    "/static/images/design.jpg"
+                ]
+            },
+            {
+                "id": 4,
+                "title":"中野1-33-3，最大的房子",
+                "desc":"房间位置池袋1丁木，是非常大的房间，有25平米，带独立卫浴",
+                "price": 74000,
+                "roomNum": 3,
+                "roomType":"整租房源",
+                "line":"池袋站步行5分"
+                
+            },
+            {
+                "id": 5,
+                "title":"中野1-33-3，最大的房子",
+                "desc":"房间位置池袋1丁木，是非常大的房间，有25平米，带独立卫浴",
+                "price": 74000,
+                "roomNum": 4,
+                "roomType":"转租房源",
+                "line":"池袋站步行3分"
+            },
+            {
+                "id": 6,
+                "title":"中野1-33-3，最大的房子",
+                "desc":"房间位置池袋1丁木，是非常大的房间，有25平米，带独立卫浴",
+                "price": 74000,
+                "line":"池袋站步行3分"
+            },
+            {
+                "id": 7,
+                "title":"中野1-33-3，最大的房子",
+                "desc":"房间位置池袋1丁木，是非常大的房间，有25平米，带独立卫浴",
+                "price": 74000
+            },
+            {
+                "id": 8,
+                "title":"中野1-33-3，最大的房子",
+                "desc":"房间位置池袋1丁木，是非常大的房间，有25平米，带独立卫浴",
+                "price": 74000
+            },
+            {
+                "id": 9,
+                "title":"中野1-33-3，最大的房子",
+                "desc":"房间位置池袋1丁木，是非常大的房间，有25平米，带独立卫浴",
+                "price": 74000
+            },
+            {
+                "id": 10,
+                "title":"中野1-33-3，最大的房子",
+                "desc":"房间位置池袋1丁木，是非常大的房间，有25平米，带独立卫浴",
+                "price": 74000
+            },
+            {
+                "id": 11,
+                "title":"中野1-33-3，最大的房子",
+                "desc":"房间位置池袋1丁木，是非常大的房间，有25平米，带独立卫浴",
+                "price": 74000
+            },
+            {
+                "id": 12,
+                "title":"中野1-33-3，最大的房子",
+                "desc":"房间位置池袋1丁木，是非常大的房间，有25平米，带独立卫浴",
+                "price": 74000
+            },
+            {
+                "id": 13,
+                "title":"中野1-33-3，最大的房子",
+                "desc":"房间位置池袋1丁木，是非常大的房间，有25平米，带独立卫浴",
+                "price": 74000
+            },
+            {
+                "id": 14,
+                "title":"中野1-33-3，最大的房子",
+                "desc":"房间位置池袋1丁木，是非常大的房间，有25平米，带独立卫浴",
+                "price": 74000
+            }
+        ]
+    }
+}

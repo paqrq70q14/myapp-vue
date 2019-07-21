@@ -3,148 +3,40 @@
 	"data":{
 		"hotCities": [{
 			"id": 1,
-			"spell": "beijing",
-			"name": "北京"
+			"spell": "dongjing",
+			"name": "东京"
 		}, {
 			"id": 3,
-			"spell": "shanghai",
-			"name": "上海"
+			"spell": "daban",
+			"name": "大阪"
 		}, {
 			"id": 47,
-			"spell": "xian",
-			"name": "西安"
+			"spell": "jingdu",
+			"name": "京都"
 		}, {
 			"id": 239,
-			"spell": "sanya",
-			"name": "三亚"
+			"spell": "azhi",
+			"name": "爱知"
 		}, {
 			"id": 188,
-			"spell": "lijiang",
-			"name": "丽江"
+			"spell": "qingsen",
+			"name": "青森"
 		}, {
 			"id": 125,
-			"spell": "guilin",
-			"name": "桂林"
+			"spell": "shanli",
+			"name": "山梨"
 		}],
 		"cities": {
 			"A": [{
-				"id": 56,
-				"spell": "aba",
-				"name": "阿坝"
-			}, {
-				"id": 57,
-				"spell": "akesu",
-				"name": "阿克苏"
-			}, {
-				"id": 58,
-				"spell": "alashanmeng",
-				"name": "阿拉善盟"
-			}, {
-				"id": 59,
-				"spell": "aletai",
-				"name": "阿勒泰"
-			}, {
-				"id": 60,
-				"spell": "ali",
-				"name": "阿里"
-			}, {
-				"id": 61,
-				"spell": "ankang",
-				"name": "安康"
-			}, {
-				"id": 62,
-				"spell": "anqing",
-				"name": "安庆"
-			}, {
-				"id": 63,
-				"spell": "anshan",
-				"name": "鞍山"
-			}, {
-				"id": 64,
-				"spell": "anshun",
-				"name": "安顺"
-			}, {
-				"id": 65,
-				"spell": "anyang",
-				"name": "安阳"
-			}, {
-				"id": 338,
-				"spell": "acheng",
-				"name": "阿城"
-			}, {
-				"id": 339,
-				"spell": "anfu",
-				"name": "安福"
-			}, {
-				"id": 340,
-				"spell": "anji",
-				"name": "安吉"
-			}, {
-				"id": 341,
-				"spell": "anning",
-				"name": "安宁"
-			}, {
-				"id": 342,
-				"spell": "anqiu",
-				"name": "安丘"
-			}, {
-				"id": 343,
-				"spell": "anxi",
-				"name": "安溪"
-			}, {
-				"id": 344,
-				"spell": "anyi",
-				"name": "安义"
-			}, {
-				"id": 345,
-				"spell": "anyuan",
-				"name": "安远"
+				"id": 239,
+				"spell": "aizhi",
+				"name": "爱知"
 			}],
 			"B": [{
 				"id": 1,
 				"spell": "beijing",
 				"name": "北京"
-			}, {
-				"id": 66,
-				"spell": "baicheng",
-				"name": "白城"
-			}, {
-				"id": 67,
-				"spell": "baise",
-				"name": "百色"
-			}, {
-				"id": 68,
-				"spell": "baishan",
-				"name": "白山"
-			}, {
-				"id": 69,
-				"spell": "baiyin",
-				"name": "白银"
-			}, {
-				"id": 70,
-				"spell": "bangbu",
-				"name": "蚌埠"
-			}, {
-				"id": 71,
-				"spell": "baoding",
-				"name": "保定"
-			}, {
-				"id": 72,
-				"spell": "baoji",
-				"name": "宝鸡"
-			}, {
-				"id": 73,
-				"spell": "baoshan",
-				"name": "保山"
-			}, {
-				"id": 74,
-				"spell": "baotou",
-				"name": "包头"
-			}, {
-				"id": 75,
-				"spell": "bayannaoer",
-				"name": "巴彦淖尔"
-			}, {
+			},{
 				"id": 76,
 				"spell": "bayinguoleng",
 				"name": "巴音郭楞"
@@ -219,8 +111,8 @@
 				"name": "重庆"
 			}, {
 				"id": 5,
-				"spell": "changchun",
-				"name": "长春"
+				"spell": "changqi",
+				"name": "长崎"
 			}, {
 				"id": 6,
 				"spell": "changsha",
@@ -342,14 +234,6 @@
 				"spell": "changting",
 				"name": "长汀"
 			}, {
-				"id": 367,
-				"spell": "changxing",
-				"name": "长兴"
-			}, {
-				"id": 368,
-				"spell": "changyi",
-				"name": "昌邑"
-			}, {
 				"id": 369,
 				"spell": "chaoan",
 				"name": "潮安"
@@ -400,8 +284,8 @@
 			}],
 			"D": [{
 				"id": 9,
-				"spell": "dalian",
-				"name": "大连"
+				"spell": "dedao",
+				"name": "德岛"
 			}, {
 				"id": 10,
 				"spell": "dongguan",
@@ -618,12 +502,12 @@
 			}],
 			"F": [{
 				"id": 11,
-				"spell": "foshan",
-				"name": "佛山"
+				"spell": "fudao",
+				"name": "福岛"
 			}, {
 				"id": 12,
-				"spell": "fuzhou",
-				"name": "福州"
+				"spell": "fujing",
+				"name": "福井"
 			}, {
 				"id": 114,
 				"spell": "fangchenggang",
@@ -673,22 +557,6 @@
 				"spell": "feixian",
 				"name": "费县"
 			}, {
-				"id": 425,
-				"spell": "fengcheng",
-				"name": "丰城"
-			}, {
-				"id": 426,
-				"spell": "fengdu",
-				"name": "丰都"
-			}, {
-				"id": 427,
-				"spell": "fenghua",
-				"name": "奉化"
-			}, {
-				"id": 428,
-				"spell": "fengjie",
-				"name": "奉节"
-			}, {
 				"id": 429,
 				"spell": "fengkai",
 				"name": "封开"
@@ -732,35 +600,19 @@
 				"id": 439,
 				"spell": "fuliang",
 				"name": "浮梁"
-			}, {
-				"id": 440,
-				"spell": "fumin",
-				"name": "富民"
-			}, {
-				"id": 441,
-				"spell": "funan",
-				"name": "阜南"
-			}, {
-				"id": 442,
-				"spell": "funing",
-				"name": "阜宁"
-			}, {
-				"id": 443,
-				"spell": "fuqing",
-				"name": "福清"
-			}, {
+			},  {
 				"id": 444,
 				"spell": "fuyang",
 				"name": "富阳"
 			}],
 			"G": [{
 				"id": 13,
-				"spell": "guangzhou",
-				"name": "广州"
+				"spell": "gaozhi",
+				"name": "高知"
 			}, {
 				"id": 14,
-				"spell": "guiyang",
-				"name": "贵阳"
+				"spell": "gongqi",
+				"name": "宮崎"
 			}, {
 				"id": 119,
 				"spell": "gannan",
@@ -778,42 +630,6 @@
 				"spell": "guangan",
 				"name": "广安"
 			}, {
-				"id": 123,
-				"spell": "guangyuan",
-				"name": "广元"
-			}, {
-				"id": 124,
-				"spell": "guigang",
-				"name": "贵港"
-			}, {
-				"id": 125,
-				"spell": "guilin",
-				"name": "桂林"
-			}, {
-				"id": 126,
-				"spell": "guoluo",
-				"name": "果洛"
-			}, {
-				"id": 127,
-				"spell": "guyuan",
-				"name": "固原"
-			}, {
-				"id": 445,
-				"spell": "ganxian",
-				"name": "赣县"
-			}, {
-				"id": 446,
-				"spell": "ganyu",
-				"name": "赣榆"
-			}, {
-				"id": 447,
-				"spell": "gaoan",
-				"name": "高安"
-			}, {
-				"id": 448,
-				"spell": "gaocheng",
-				"name": "藁城"
-			}, {
 				"id": 449,
 				"spell": "gaochun",
 				"name": "高淳"
@@ -825,31 +641,7 @@
 				"id": 451,
 				"spell": "gaoling",
 				"name": "高陵"
-			}, {
-				"id": 452,
-				"spell": "gaomi",
-				"name": "高密"
-			}, {
-				"id": 453,
-				"spell": "gaoqing",
-				"name": "高青"
-			}, {
-				"id": 454,
-				"spell": "gaotang",
-				"name": "高唐"
-			}, {
-				"id": 455,
-				"spell": "gaoyao",
-				"name": "高要"
-			}, {
-				"id": 456,
-				"spell": "gaoyi",
-				"name": "高邑"
-			}, {
-				"id": 457,
-				"spell": "gaoyou",
-				"name": "高邮"
-			}, {
+			},  {
 				"id": 458,
 				"spell": "gaozhou",
 				"name": "高州"
@@ -911,18 +703,6 @@
 				"spell": "haerbin",
 				"name": "哈尔滨"
 			}, {
-				"id": 16,
-				"spell": "haikou",
-				"name": "海口"
-			}, {
-				"id": 17,
-				"spell": "handan",
-				"name": "邯郸"
-			}, {
-				"id": 18,
-				"spell": "hangzhou",
-				"name": "杭州"
-			}, {
 				"id": 19,
 				"spell": "hefei",
 				"name": "合肥"
@@ -978,39 +758,7 @@
 				"id": 139,
 				"spell": "hengyang",
 				"name": "衡阳"
-			}, {
-				"id": 140,
-				"spell": "hetiandi",
-				"name": "和田地"
-			}, {
-				"id": 141,
-				"spell": "heyuan",
-				"name": "河源"
-			}, {
-				"id": 142,
-				"spell": "heze",
-				"name": "菏泽"
-			}, {
-				"id": 143,
-				"spell": "hezhou",
-				"name": "贺州"
-			}, {
-				"id": 144,
-				"spell": "honghe",
-				"name": "红河"
-			}, {
-				"id": 145,
-				"spell": "huaian",
-				"name": "淮安"
-			}, {
-				"id": 146,
-				"spell": "huaibei",
-				"name": "淮北"
-			}, {
-				"id": 147,
-				"spell": "huaihua",
-				"name": "怀化"
-			}, {
+			},  {
 				"id": 148,
 				"spell": "huainan",
 				"name": "淮南"
@@ -1043,18 +791,6 @@
 				"spell": "hulunbeier",
 				"name": "呼伦贝尔"
 			}, {
-				"id": 156,
-				"spell": "huzhou",
-				"name": "湖州"
-			}, {
-				"id": 472,
-				"spell": "haian",
-				"name": "海安"
-			}, {
-				"id": 473,
-				"spell": "haifeng",
-				"name": "海丰"
-			}, {
 				"id": 474,
 				"spell": "haimen",
 				"name": "海门"
@@ -1070,19 +806,7 @@
 				"id": 477,
 				"spell": "haiyang",
 				"name": "海阳"
-			}, {
-				"id": 478,
-				"spell": "hanshan",
-				"name": "含山"
-			}, {
-				"id": 479,
-				"spell": "hechuan",
-				"name": "合川"
-			}, {
-				"id": 480,
-				"spell": "hengfeng",
-				"name": "横峰"
-			}, {
+			},  {
 				"id": 481,
 				"spell": "hengxian",
 				"name": "横县"
@@ -1107,18 +831,6 @@
 				"spell": "huaan",
 				"name": "华安"
 			}, {
-				"id": 487,
-				"spell": "huadian",
-				"name": "桦甸"
-			}, {
-				"id": 488,
-				"spell": "huaiji",
-				"name": "怀集"
-			}, {
-				"id": 489,
-				"spell": "huaining",
-				"name": "怀宁"
-			}, {
 				"id": 490,
 				"spell": "huaiyuan",
 				"name": "怀远"
@@ -1130,15 +842,7 @@
 				"id": 492,
 				"spell": "huazhou",
 				"name": "化州"
-			}, {
-				"id": 493,
-				"spell": "huian",
-				"name": "惠安"
-			}, {
-				"id": 494,
-				"spell": "huichang",
-				"name": "会昌"
-			}, {
+			},{
 				"id": 495,
 				"spell": "huidong",
 				"name": "惠东"
@@ -1173,88 +877,12 @@
 			}],
 			"J": [{
 				"id": 21,
-				"spell": "jiaozuo",
-				"name": "焦作"
+				"spell": "jinggang",
+				"name": "静冈"
 			}, {
 				"id": 22,
 				"spell": "jiaxing",
 				"name": "嘉兴"
-			}, {
-				"id": 23,
-				"spell": "jilin",
-				"name": "吉林"
-			}, {
-				"id": 24,
-				"spell": "jinan",
-				"name": "济南"
-			}, {
-				"id": 157,
-				"spell": "jiamusi",
-				"name": "佳木斯"
-			}, {
-				"id": 158,
-				"spell": "jiangmen",
-				"name": "江门"
-			}, {
-				"id": 159,
-				"spell": "jian",
-				"name": "吉安"
-			}, {
-				"id": 160,
-				"spell": "jiayuguan",
-				"name": "嘉峪关"
-			}, {
-				"id": 161,
-				"spell": "jieyang",
-				"name": "揭阳"
-			}, {
-				"id": 162,
-				"spell": "jinchang",
-				"name": "金昌"
-			}, {
-				"id": 163,
-				"spell": "jincheng",
-				"name": "晋城"
-			}, {
-				"id": 164,
-				"spell": "jingdezhen",
-				"name": "景德镇"
-			}, {
-				"id": 165,
-				"spell": "jingmen",
-				"name": "荆门"
-			}, {
-				"id": 166,
-				"spell": "jingzhou",
-				"name": "荆州"
-			}, {
-				"id": 167,
-				"spell": "jinhua",
-				"name": "金华"
-			}, {
-				"id": 168,
-				"spell": "jining",
-				"name": "济宁"
-			}, {
-				"id": 169,
-				"spell": "jinzhong",
-				"name": "晋中"
-			}, {
-				"id": 170,
-				"spell": "jinzhou",
-				"name": "锦州"
-			}, {
-				"id": 171,
-				"spell": "jiujiang",
-				"name": "九江"
-			}, {
-				"id": 172,
-				"spell": "jiuquan",
-				"name": "酒泉"
-			}, {
-				"id": 173,
-				"spell": "jixi",
-				"name": "鸡西"
 			}, {
 				"id": 503,
 				"spell": "jiande",
@@ -1336,42 +964,10 @@
 				"spell": "jieshou",
 				"name": "界首"
 			}, {
-				"id": 523,
-				"spell": "jiexi",
-				"name": "揭西"
-			}, {
-				"id": 524,
-				"spell": "jimo",
-				"name": "即墨"
-			}, {
-				"id": 525,
-				"spell": "jingan",
-				"name": "靖安"
-			}, {
-				"id": 526,
-				"spell": "jingde",
-				"name": "旌德"
-			}, {
-				"id": 527,
-				"spell": "jinggangshan",
-				"name": "井冈山"
-			}, {
 				"id": 528,
 				"spell": "jingjiang",
 				"name": "靖江"
-			}, {
-				"id": 529,
-				"spell": "jingning",
-				"name": "景宁"
-			}, {
-				"id": 530,
-				"spell": "jingxian",
-				"name": "泾县"
-			}, {
-				"id": 531,
-				"spell": "jingxing",
-				"name": "井陉"
-			}, {
+			},{
 				"id": 532,
 				"spell": "jinhu",
 				"name": "金湖"

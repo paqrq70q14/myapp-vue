@@ -1,14 +1,25 @@
+import {loadSearch, loadFavorite} from '../common/js/cache'
 
 
-let defaultCity = '上海'
-try {
-    if(localStorage.city){
-        defaultCity = localStorage.city
-    }
-} catch (e) {}
+const state = {
+    city: '东京',
+    search: '位置搜索',   
+    area:'',     
+    line:'',    
+    roomType: '户型',
+    optionNum: '筛选',
+    station: '',
 
-export default {
-    city:defaultCity
+    options: [],
+    Sex: [],
+    Features: [],
+    Types: [],
+    houseDetails: {},
+    searchHistory: loadSearch(),
+    favoriteList: loadFavorite()
 }
+
+export default state
+
 
 
