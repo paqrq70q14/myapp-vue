@@ -6,7 +6,7 @@
         <div class="item-price">
           <span class="price">{{price}}/月</span>
           <span>随时入住</span>
-          <span class="roomType">{{roomNum}}室</span>
+          <span class="roomType">{{roomNum}}</span>
         </div>
         <div class="hot-key">
           <span class="hotkey-item" v-for="hotkey in list.hotkey">{{hotkey}}</span>
@@ -20,7 +20,7 @@
         </h4>
         <div class="item-address-location">
           <span class="line">{{line}}</span>
-           <span>   d步行5分</span>
+           <span> 步行5分</span>
         </div>
       </div>
       <div class="item-desc">

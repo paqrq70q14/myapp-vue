@@ -69,7 +69,8 @@ export default {
   computed:{
     ...mapGetters([
       'roomType',
-      'search'
+      'search',
+      'optionNum'
     ])
   },
   watch:{
@@ -86,8 +87,14 @@ export default {
       console.log(res)
      this.houseInfo = res.data
     })
+   },
+  // 筛选
+   optionNum() {
+      upload().then((res) =>{
+      console.log(res)
+     this.houseInfo = res.data
+    })
    }
-
 
 },
 };

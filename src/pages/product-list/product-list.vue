@@ -11,7 +11,7 @@
         <img class="item-img" :src="'/'+item.picAddr[0]">
         <div class="item-info">
           <p class="item-title">{{item.title}}-{{item.line}}</p>
-          <div class="houseType">{{item.types}}.{{item.bedroom}}室</div>
+          <div class="houseType">{{item.types}}.{{item.bedroom}}</div>
           <ul class="hotkey" >
             <li v-for="key in item.hotkey" class="key-item">{{key}}</li>
           </ul>

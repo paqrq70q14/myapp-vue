@@ -128,9 +128,6 @@ export default {
       this.setType(this.typeArr)
       this.setOptNum(this.length)
       this.$emit('setFalse')
-      upload().then((res) => {
-        console.log('结果为', res)
-      })
     },
 
     // 清除
