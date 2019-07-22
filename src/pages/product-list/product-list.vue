@@ -15,7 +15,6 @@
           <ul class="hotkey" >
             <li v-for="key in item.hotkey" class="key-item">{{key}}</li>
           </ul>
-
           <span class="item-price">{{item.rentPrice}}/月</span>
         </div>
       </li>
@@ -59,7 +58,6 @@ export default {
 <style lang="stylus" scoped>
 @import '~styles/mixins.styl';
 .product-list
-  padding: .1rem .1rem
   z-index: 1
   .list-content
    width: 100%
@@ -88,7 +86,6 @@ export default {
       height: .3rem 
       line-height: .3rem
       width: 100%
-      margin-top: .1rem
       .key-item
        margin-right: 0.15rem
        font-size: 0.1rem;

@@ -15,7 +15,6 @@
 
      </div>
     <m-bottom></m-bottom>
-
      <keep-alive>
        <router-view></router-view>
      </keep-alive>
@@ -101,12 +100,11 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.productlist-wrapper
+ .productlist-wrapper
   position: fixed
   width: 100%
   top: 2rem
   bottom: .8rem
-  z-index: -1
   .loading-container
    position: absolute
    width: 100%
